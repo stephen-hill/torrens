@@ -1,0 +1,46 @@
+{
+    "name": "stephenhill/torrens",
+    "description": "",
+    "repositories": {
+      "zepto": {
+        "type": "package",
+        "package": {
+          "name": "madrobby/zepto",
+          "version": "1.1.6",
+          "source": {
+            "url": "https://github.com/madrobby/zepto",
+            "type": "git",
+            "reference": "master"
+          }
+        }
+      }
+    },
+    "require": {
+        "twig/twig": "~1",
+        "league/route": "~1",
+        "hassankhan/config": "~0",
+        "symfony/yaml": "~2",
+        "symfony/http-foundation": "~2",
+        "league/container": "~1",
+        "stephenhill/base58": "~1",
+        "twig/twig": "~1",
+        "aura/session": "~2",
+        "twbs/bootstrap": "v4.0.0-alpha",
+        "spomky-labs/otphp": "~6",
+        "symfony/finder": "~2",
+        "madrobby/zepto": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Hill",
+            "email": "stephen@gatekiller.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Torrens\\": "src"
+        }
+    }
+}
